@@ -15,7 +15,7 @@
 
     <FrameLayout
             android:id="@+id/fragment_container"
-            android:layout_width="0dp"container
+            android:layout_width="0dp"
             android:layout_height="0dp"
             android:text="@string/title_home"
             app:layout_constraintTop_toBottomOf="@+id/include" app:layout_constraintEnd_toEndOf="parent"

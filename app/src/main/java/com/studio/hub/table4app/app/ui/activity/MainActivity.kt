@@ -6,12 +6,10 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import com.studio.hub.table4app.R
-import com.studio.hub.table4app.app.ui.fragment.HomeFragment
-import com.studio.hub.table4app.app.ui.fragment.MyReservationsFragment
-import com.studio.hub.table4app.app.ui.fragment.SearchFragment
+import com.studio.hub.table4app.app.ui.fragment.*
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), SearchFragment.OnFragmentInteractionListener, HomeFragment.OnFragmentInteractionListener, MyReservationsFragment.OnFragmentInteractionListener {
+class MainActivity : AppCompatActivity(), SearchFragment.OnFragmentInteractionListener, HomeFragment.OnFragmentInteractionListener, MyReservationsFragment.OnFragmentInteractionListener, NearMeFragment.OnFragmentInteractionListener, RecommendedFragment.OnFragmentInteractionListener {
 
     override fun onFragmentInteraction(uri: Uri) {
 
